@@ -10,7 +10,7 @@ Algoritmo sin_titulo
 		FinPara
 	FinPara
 	
-	Para coches<-1 Hasta 30 Con Paso 1
+	Para coches<-1 Hasta 5 Con Paso 1
 		Repetir
 			num1<-Azar(10)+1
 			num2<-Azar(10)+1
@@ -27,8 +27,8 @@ Algoritmo sin_titulo
 		Leer filas
 		Escribir "Dime una columna del parking: "
 		Leer columnas
-		Si filas>10 o columnas>10 o filas<0 o columnas<0
-			Escribir "Introduce un valor entre 0 y 10"
+		Si filas>10 o columnas>10 o filas<=0 o columnas<=0
+			Escribir "Introduce un valor entre 1 y 10"
 		SiNo
 			valor_valido<-Verdadero
 		FinSi
