@@ -23,7 +23,7 @@ Algoritmo sin_titulo
 		Repetir
 			Escribir "Dame la coordenada de las filas: "
 			Leer coord_fila
-			Escribir "Dame la coordenada de las columna: "
+			Escribir "Dame la coordenada de las columnas: "
 			Leer coord_columna
 			Si coord_columna>8 o coord_fila>8 o coord_columna<1 o coord_fila<1
 				Escribir "Introduce un valor de coordenadas entre 1 y 8"
